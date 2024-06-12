@@ -1,0 +1,8 @@
+gha-runner-scale-set:
+  githubConfigUrl: https://github.com/danielk1345/arc-test
+  githubConfigSecret: pre-defined-secret
+  controllerServiceAccount:
+    namespace: arc-systems
+    name: arc-gha-rs-controller
+  containerMode:
+    type: "dind"
